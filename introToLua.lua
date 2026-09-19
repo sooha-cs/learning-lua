@@ -5,3 +5,8 @@ print("Yohooo !")
 This is a
 multi-line comment
 ]]
+playerScore = 1500
+gameVersion = 2.1
+temperature = -10
+print(playerScore)
+-- No shit this is literally python
