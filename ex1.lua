@@ -7,3 +7,11 @@ Create a variable named characterHealth and assign it the number 85
 Create a variable named isHero and assign it the boolean true
 After creating all variables, print each one on a separate line in the order they were created.
 ]]
+characterName = "Warrior"
+characterLevel = 12
+characterHealth = 85
+isHero = true
+print(characterName)
+print(characterLevel)
+print(characterHealth)
+print(isHero)
