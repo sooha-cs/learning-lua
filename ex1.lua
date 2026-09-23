@@ -15,3 +15,12 @@ print(characterName)
 print(characterLevel)
 print(characterHealth)
 print(isHero)
+
+--[[Check if a player's score is a multiple of 10 using the modulo operator. 
+Create a variable called playerScore and assign it the value 85. 
+Then use the modulo operator to find the remainder when dividing the score by 10,
+and store this result in a variable called remainder. Print the remainder value.]]
+
+local playerScore = 85
+remainder = playerScore % 10
+print(remainder)
