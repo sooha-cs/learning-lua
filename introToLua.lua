@@ -29,3 +29,14 @@ print(type(playerScore))  -- outputs: number
 print(type(playerName))   -- outputs: string
 print(type(isReady))      -- outputs: boolean
 print(type(emptyValue))   -- outputs: nil
+
+
+-- finally found smth different
+--can't believe I'm doing this while having fever
+
+--The exponentiation operator is represented by the caret symbol ^ and allows you to raise a number to a power:
+
+result = 2 ^ 3    -- result is 8 (2 × 2 × 2)
+result = 5 ^ 2    -- result is 25 (5 × 5)
+result = 10 ^ 1   -- result is 10 (10 to the power of 1)
+result = 4 ^ 0    -- result is 1 (any number to the power of 0 is 1)
