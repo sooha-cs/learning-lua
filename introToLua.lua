@@ -34,9 +34,34 @@ print(type(emptyValue))   -- outputs: nil
 -- finally found smth different
 --can't believe I'm doing this while having fever
 
---The exponentiation operator is represented by the caret symbol ^ and allows you to raise a number to a power:
+--The exponentiation operator
+--It is represented by the caret symbol ^ and allows you to raise a number to a power:
 
 result = 2 ^ 3    -- result is 8 (2 × 2 × 2)
 result = 5 ^ 2    -- result is 25 (5 × 5)
 result = 10 ^ 1   -- result is 10 (10 to the power of 1)
 result = 4 ^ 0    -- result is 1 (any number to the power of 0 is 1)
+
+--String Concatenation
+--The string concatenation operator .. joins two or more strings together:
+
+firstName = "John"
+lastName = "Smith"
+fullName = firstName .. " " .. lastName    -- "John Smith"
+
+greeting = "Hello, " .. "World!"          -- "Hello, World!"
+--Concatenation doesn't automatically add spaces - include them explicitly with " ".
+
+--[[Lua provides two equality operators for comparing values:
+
+== checks if two values are equal
+~= checks if two values are not equal
+Both operators return a boolean value (true or false): ]]
+
+userGuess = 42
+secretNumber = 42
+isCorrect = userGuess == secretNumber    -- isCorrect is true
+
+playerName = "Alice"
+targetName = "Bob"
+isDifferent = playerName ~= targetName   -- isDifferent
