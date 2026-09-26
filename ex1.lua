@@ -24,3 +24,19 @@ and store this result in a variable called remainder. Print the remainder value.
 local playerScore = 85
 remainder = playerScore % 10
 print(remainder)
+
+--[[Check if a player can purchase a special weapon by verifying they have both enough gold and a high enough level. 
+Create a variable called playerGold and assign it the value 250. 
+Create a variable called playerLevel and assign it the value 8. 
+Create two more variables for the requirements: requiredGold with the value 200 and requiredLevel with the value 10. 
+Use the and operator to check if the player meets both requirements, 
+storing the result in a variable called canBuyWeapon. 
+Print the boolean result.]]
+
+playerGold = 250
+playerLevel = 8
+-- Check if player can buy weapon using 'and' operator
+requiredGold = 200
+requiredLevel = 10
+canBuyWeapon = playerGold>=requiredLevel and playerLevel>=requiredLevel
+print(canBuyWeapon)
