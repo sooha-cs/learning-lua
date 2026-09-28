@@ -65,3 +65,18 @@ isCorrect = userGuess == secretNumber    -- isCorrect is true
 playerName = "Alice"
 targetName = "Bob"
 isDifferent = playerName ~= targetName   -- isDifferent
+
+--[[In Lua, only two values are considered falsy (treated as false in logical operations):
+
+false
+nil
+
+Everything else is truthy, including:
+
+0 (unlike many other languages)
+Empty strings ""
+Empty tables {}]] 
+print(false and "Won't print")  -- false is falsy
+print(nil and "Won't print")    -- nil is falsy
+print(0 and "Will print")       -- 0 is truthy in Lua
+print("" and "Will print")      -- Empty string is true
