@@ -40,3 +40,11 @@ requiredGold = 200
 requiredLevel = 10
 canBuyWeapon = playerGold>=requiredLevel and playerLevel>=requiredLevel
 print(canBuyWeapon)
+
+--[[etermine if a character can perform a special attack by combining multiple logical conditions. 
+Create a variable called hasHighEnergy and assign it the value true. 
+Create a variable called hasFullHealth and assign it the value false. 
+Create a variable called hasSpecialPowerUp and assign it the value true. 
+The character can perform the special attack if they have high energy AND either full health OR a special power-up. 
+Use logical operators to create a variable called canPerformSpecialAttack that stores the result of this complex condition. 
+Print the boolean result.]]
