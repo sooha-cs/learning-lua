@@ -48,3 +48,9 @@ Create a variable called hasSpecialPowerUp and assign it the value true.
 The character can perform the special attack if they have high energy AND either full health OR a special power-up. 
 Use logical operators to create a variable called canPerformSpecialAttack that stores the result of this complex condition. 
 Print the boolean result.]]
+-- Create the required variables
+local hasHighEnergy = true
+local hasFullHealth = false
+local hasSpecialPowerUp = true
+canPerformSpecialAttack = hasHighEnergy or hasSpecialPowerUp
+print(canPerformSpecialAttack)
