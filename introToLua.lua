@@ -80,3 +80,17 @@ print(false and "Won't print")  -- false is falsy
 print(nil and "Won't print")    -- nil is falsy
 print(0 and "Will print")       -- 0 is truthy in Lua
 print("" and "Will print")      -- Empty string is true
+
+Combining Strings & Variables
+
+
+
+--The concatenation operator .. joins strings and variables together:
+
+playerName = "Alex"
+message = "Welcome, " .. playerName .. "!"
+print(message)  -- Output: Welcome, Alex!
+
+--You can concatenate directly within print():
+score = 150
+print("Player score is: " .. score)  -- Output: Player 
