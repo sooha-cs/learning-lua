@@ -105,3 +105,17 @@ var = io.read()
 name = io.read()
 print("Hello, " .. name) 
 --so basically printing using variables looks like awkward convo 
+
+
+--Casting in Lua:
+-- Convert string to number
+var = tonumber(io.read())
+
+-- Convert to string
+var = tostring(io.read())
+
+-- tonumber returns nil for invalid input
+var = tonumber("abc")  -- var is nil
+--Important: Concatenating strings joins them, while adding numbers performs arithmetic:
+"5" .. "5" = "55"  -- String concatenation
+5 + 5 = 10          -- Numeric addition
