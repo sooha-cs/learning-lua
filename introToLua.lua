@@ -94,3 +94,14 @@ print(message)  -- Output: Welcome, Alex!
 --You can concatenate directly within print():
 score = 150
 print("Player score is: " .. score)  -- Output: Player 
+
+
+--To get input from a user:
+var = io.read()
+--The input is always stored as a string, even for numbers.
+
+--To print a greeting with the input:
+
+name = io.read()
+print("Hello, " .. name) 
+--so basically printing using variables looks like awkward convo 
