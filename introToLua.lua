@@ -127,3 +127,10 @@ var = tonumber("abc")  -- var is nil
 if condition then
     -- code to run if condition is true
 end
+
+--The if-then-else Statement
+if condition then
+    -- code to run if condition is true
+else
+    -- code to run if condition is false
+end
