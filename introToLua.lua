@@ -119,3 +119,11 @@ var = tonumber("abc")  -- var is nil
 --Important: Concatenating strings joins them, while adding numbers performs arithmetic:
 "5" .. "5" = "55"  -- String concatenation
 5 + 5 = 10          -- Numeric addition
+
+
+--The if-then Statement
+--[[The if-then-end statement executes code only when a condition is true: ]]
+
+if condition then
+    -- code to run if condition is true
+end
