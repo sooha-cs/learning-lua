@@ -62,3 +62,18 @@ For example, for input 25, the expected output is "95 years till 120".]]
 age = tonumber(io.read())
 till_120 = 120-age
 print(till_120 .. " years till 120")
+
+--[[Create a treasure chest reward system that determines what a player 
+receives based on the type of key they possess. 
+Declare a variable called keyType and assign it the value "silver key". 
+Use a complete if-elseif-else structure to check the key type and 
+award the appropriate treasure]]
+
+local keyType = "silver key"
+if keyType=="gold key" then
+    print("You found gold!")
+elseif keyType=="silver key" then
+    print("You found silver!")
+else
+    print("The chest is empty.")
+end
