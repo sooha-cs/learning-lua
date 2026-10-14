@@ -63,3 +63,15 @@ local startPos, endPos = string.find(message, "treasure")
 print(startPos)
 print(endPos)
 ```
+
+
+-----------------
+
+## Functions
+basic structure:
+```
+function functionName(parameter)
+    local result = parameter * 2
+    return result
+end
+```
