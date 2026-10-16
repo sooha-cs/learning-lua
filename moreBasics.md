@@ -75,3 +75,17 @@ function functionName(parameter)
     return result
 end
 ```
+
+
+## Tables 
+Tables are Lua's single built-in data structure that can hold multiple pieces of information.      
+They can be used as lists - ordered collections of items.    
+
+Create a table using curly braces {} with comma-separated values:    
+```
+-- A simple list of player names
+players = {"Alice", "Bob", "Charlie"}
+
+-- A list of scores
+scores = {100, 85, 92, 78}
+```
