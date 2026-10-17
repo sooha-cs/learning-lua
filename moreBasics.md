@@ -89,3 +89,22 @@ players = {"Alice", "Bob", "Charlie"}
 -- A list of scores
 scores = {100, 85, 92, 78}
 ```
+
+***Important: Lua table indices start at 1, not 0.*** 
+
+The first element is at index 1, the second at index 2, and so on.   
+
+```
+-- TODO: Create the treasureChest table with the four items
+treasureChest = {"gold coin", "ruby gem", "magic scroll", "silver key"}
+-- TODO: Access and print the third item from the treasure chest
+print(treasureChest[3])
+```
+
+**Modifying Elements by Index**    
+To modify an element in a table, use square bracket syntax with an assignment operator:    
+```
+local items = {"milk", "bread", "eggs"}
+items[1] = "almond milk"  -- changes first item
+print(items[1])  -- outputs: almond milk
+```
