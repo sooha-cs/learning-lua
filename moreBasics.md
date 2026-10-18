@@ -108,3 +108,21 @@ local items = {"milk", "bread", "eggs"}
 items[1] = "almond milk"  -- changes first item
 print(items[1])  -- outputs: almond milk
 ```
+
+
+### The Length Operator '#'
+
+The length operator # returns the number of elements in a table:
+```
+local players = {"Alice", "Bob", "Charlie"}
+print(#players)  -- outputs: 3
+```
+
+### table.insert()
+
+The table.insert() function adds a new element to the end of a list-style table:
+```
+local tasks = {"homework", "shopping"}
+table.insert(tasks, "cooking")
+print(tasks[3])  -- outputs: cooking
+```
