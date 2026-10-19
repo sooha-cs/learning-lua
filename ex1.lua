@@ -77,3 +77,17 @@ elseif keyType=="silver key" then
 else
     print("The chest is empty.")
 end
+
+
+
+-- Create the adventurers table with the initial members
+local adventurers = {"Gandalf", "Legolas", "Gimli"}
+
+-- 1. Print the current number of party members using the length operator
+-- 2. Add "Aragorn" to the party using table.insert()
+-- 3. Remove the first member using table.remove()
+-- 4. Print the final number of party members
+print(#adventurers)
+table.insert(adventurers,"Aragorn")
+table.remove(adventurers,1)
+print(#adventurers)
