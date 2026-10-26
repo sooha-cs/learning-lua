@@ -38,3 +38,26 @@ while playerHealth < maxHealth do
     print(playerHealth)
     playerHealth = playerHealth + 15
 end
+
+
+-- TODO:
+-- Use a repeat-until loop to:
+-- 1. Assign the current attempt to the exact text from the instructions
+-- 2. Print the attempted password
+-- 3. Move to the next attempt
+-- Stop when password matches correctPassword
+
+-- Initialize variables
+local password = ""
+local correctPassword = "secure123"
+-- List of password attempts
+local attempts = {"password", "123456", "admin", "secure123"}
+local index = 1
+
+repeat 
+    password = attempts[index]
+    print(password)
+    index = index + 1
+until password == correctPassword
+
+
