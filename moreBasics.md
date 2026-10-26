@@ -126,3 +126,35 @@ local tasks = {"homework", "shopping"}
 table.insert(tasks, "cooking")
 print(tasks[3])  -- outputs: cooking
 ```
+
+------------
+## While loop
+The repeat-until Loop - basically do while loop?
+
+
+The repeat-until loop executes code at least once before checking the condition.        
+It continues repeating until the condition becomes true.      
+
+Syntax:
+```
+repeat
+    -- code to repeat
+until condition
+```
+Example - rolling dice until getting a 6:
+```
+local roll = 0
+
+repeat
+    roll = math.random(1, 6)
+    print("Rolled:", roll)
+until roll == 6
+
+print("Finally got a 6!")
+```
+
+Key differences from while loops:
+
+Always executes at least once
+Condition is checked at the end
+Continues until condition is true (opposite of while)
