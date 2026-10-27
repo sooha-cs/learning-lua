@@ -158,3 +158,40 @@ Key differences from while loops:
 Always executes at least once
 Condition is checked at the end
 Continues until condition is true (opposite of while)
+
+
+### The Numeric for Loop
+
+The numeric for loop repeats code a specific number of times with automatic counting:    
+```
+for variable = start, finish do
+    -- code to repeat
+end
+```
+Example that prints numbers 1, 2, and 3:
+```
+for i = 1, 3 do
+    print(i)
+end
+```
+
+### for Loop with a Step
+
+The numeric for loop can include a third argument called the step to control how much the loop variable changes each iteration:    
+```
+for variable = start, finish, step do
+    -- code to repeat
+end
+```
+Count by 2s:    
+```
+for i = 2, 10, 2 do
+    print(i)  -- prints: 2, 4, 6, 8, 10
+end
+```
+Count backwards with negative step:    
+```
+for i = 5, 1, -1 do
+    print(i)  -- prints: 5, 4, 3, 2, 1
+end
+```
