@@ -60,4 +60,17 @@ repeat
     index = index + 1
 until password == correctPassword
 
+--[[
+Create a rocket launch countdown system that uses a numeric for loop with a negative step to simulate 
+the final countdown sequence. Write a for loop that counts backwards from 10 down to 1,
+printing each number on a separate line.
 
+After the countdown loop completes, print the message "Liftoff!" to signal that the rocket has launched. 
+This demonstrates how the negative step parameter allows you to count backwards and 
+how code after the loop executes once the loop finishes.
+]]
+
+for i = 10, 1, -1 do
+    print(i)
+end
+print("Liftoff!")
