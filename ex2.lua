@@ -74,3 +74,29 @@ for i = 10, 1, -1 do
     print(i)
 end
 print("Liftoff!")
+
+
+-- Create the users table (list-style table containing dictionary-style tables)
+-- TODO: Write your code here to create the users table with the three user records
+-- Create the findUser function
+-- TODO: Write your code here to create the findUser function that searches by userId
+
+users = {
+    {id = 101, name = "Alice"},
+    {id = 205, name = "Bob"},
+    {id = 350, name = "Charlie"}
+}
+function findUser(userId)
+    for i=1, #users do
+        if users[i].id == userId then
+        return users[i].name
+        end
+    end
+    return nil
+end
+
+-- TODO: Write your code here to call findUser three times and print the results
+-- Remember to search for IDs: 205, 101, and 999
+print(findUser(205))
+print(findUser(101))
+print(findUser(999))
